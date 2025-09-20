@@ -1,0 +1,17 @@
+name: bitcoin-pricing-behavior
+channels:
+  - conda-forge
+dependencies:
+  - ipykernel
+  - matplotlib
+  - numpy
+  - pandas
+  - python=3.13
+  - scipy
+  - seaborn
+  - statsmodels
+  - yfinance
+  - pip:
+    - arch==7.2.0
+
+prefix: "/home/sooyong/miniforge3/envs/bitcoin-pricing-behavior"
