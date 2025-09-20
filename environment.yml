@@ -1,4 +1,4 @@
-name: bitcoin-pricing-behavior
+name: bitcoin-price-behavior
 channels:
   - conda-forge
 dependencies:
@@ -13,5 +13,3 @@ dependencies:
   - yfinance
   - pip:
     - arch==7.2.0
-
-prefix: "/home/sooyong/miniforge3/envs/bitcoin-pricing-behavior"
